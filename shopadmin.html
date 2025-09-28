@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="shop.css">
+  <title>SHOP</title>
+</head>
+<body>
+  <!-- Navbar -->
+   <!-- nanti saya mau tambahin fitur 
+    kalau ditekan langsung nge-scroll pakai JS bang
+    ,cuman sekarang belum boleh -->
+  <div class="navbar">
+    <img src="admin.jpg" alt="user">
+    <a href="login.html">LOG OUT</a>
+    <a href="#home">Beranda</a>
+    <a href="#tepung">Tepung</a>
+    <a href="gula">Gula</a>
+    <a href="topping">Topping</a>
+    <a href="#contact">Kontak</a>
+    <a href="#about">Tentang</a>
+    <a href="#transaksi">Data Transaksi</a>
+    <a href="edit">Edit Web</a>
+    <div class="kotak-cari">
+      <input type="search" class="input" placeholder="Cari"> </input>
+      <button class="button-cari">CARI</button>
+    </div>
+  </div>
+  <!-- teks gerak -->
+  <div class="posisi teks_awal">
+    <marquee diraction="right" font-size="20px" background-color="lightblue" loop="auto">
+    <h1>SELAMAT DATANG DI TOKO CICI MEY</h1>
+    <p>PENUHI SEMUA KEBUTUHAN BAHAN KUE ANDA DENGAN HARGA TERJANGKAU</p>
+    </marquee>
+  </div>
+
+  <!-- daftar barang -->
+  <div class="konten">
+  <!--Jenis barang Tepung-->
+    <div class="jenis">
+      <h2>TEPUNG</h2>
+    </div>
+    <!--Box yang ngecover semua tepung gitu bang-->
+      <div class="box_besar" class="grid" style="grid-template-columns: 1fr 1fr; grid-template-rows: 100px 100px; gap: 15px;">
+        <!-- box-box kecil yang ada barangnya -->
+        <div class="box">
+            <!--Bagian Produk Tepung Terigu-->
+            <img src="terigu.jpeg" alt="Gambar Produk 1">
+            <div class="produk">
+                <h3>Tepung Terigu</h3>
+                <p> <b>Kelebihan </b>: Menghasilkan adonan yang kuat, elastis, dan mengembang sempurna. Ideal untuk roti, donat, dan kue lainnya.</p>
+                <p><b>Harga</b>: Rp14.000 - Rp25.000 per kg</p>
+                <a href="#" class="tombol-beli">BELI</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <!--Bagian Produk Tepung Beras-->
+            <img src="beras.jpg" alt="Gambar Tepung Beras">
+            <div class="produk">
+                <h3>Tepung Beras</h3>
+                <p> <b>Kelebihan </b>: Menghasilkan tekstur kue yang lembut dan sedikit kenyal (pada kue basah) atau renyah (pada kue kering). Bebas gluten.</p>
+                <p><b>Harga</b>: Rp7.000 - Rp12.000 per 500 gram</p>
+                <a href="#" class="tombol-beli">BELI</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <!--Bagian Produk Tepung Maizena-->
+            <img src="maizena.jpg" alt="Gambar Tepung Maizena">
+            <div class="produk">
+                <h3>Tepung Maizena</h3>
+                <p> <b>Kelebihan </b>:memberikan tekstur renyah pada kue kering dan melembutkan tekstur kue bolu..</p>
+                <p><b>Harga</b>: Rp4.000 - Rp8.000 per 250-300 gram</p>
+                <a href="#" class="tombol-beli">BELI</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <!--Bagian Produk Tepung Tapioka (Kanji)-->
+            <img src="tapioka.jpg" alt="Gambar Tepung Tapioka">
+            <div class="produk">
+                <h3>Tepung Tapioka (Kanji)</h3>
+                <p> <b>Kelebihan </b>:memberikan tekstur renyah pada kue kering dan melembutkan tekstur kue bolu, tekstur yang sangat kenyal, liat, dan bening saat dimasak Bebas gluten.</p>
+                <p><b>Harga</b>:  Rp6.000 - Rp10.000 per 500 gram</p>
+                <a href="#" class="tombol-beli">BELI</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <!--Bagian Produk Gandum Utuh (Whole Wheat Flour)-->
+            <img src="utuh.jpg" alt="Gambar Tepung Gandum Utuh">
+            <div class="produk">
+                <h3>Tepung Gandum Utuh (Whole Wheat Flour)</h3>
+                <p> <b>Kelebihan </b>:  Lebih sehat karena kaya serat, vitamin, dan mineral. Memberikan rasa nutty dan tekstur yang lebih padat.</p>
+                <p><b>Harga</b>: Rp18.000 - Rp50.000 per kg</p>
+                <a href="#" class="tombol-beli">BELI</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <!--Bagian Produk Tepung  Almond-->
+            <img src="almond.jpeg" alt="Gambar Tepung Almond">
+            <div class="produk">
+                <h3>Tepung  Almond</h3>
+                <p> <b>Kelebihan </b>: Bebas gluten, rendah karbohidrat, tinggi protein. Memberikan rasa gurih, aroma kacang yang khas, dan tekstur yang lembap pada kue.</p>
+                <p><b>Harga</b>: Rp150.000 - Rp250.000 per kg</p>
+                <a href="#" class="tombol-beli">BELI</a>
+            </div>
+        </div>
+      </div>
+
+
+    <!--Jenis barang gula-->
+    <div class="jenis">
+      <h2>Gula</h2>
+    </div>
+    <!--Box yang ngecover semua gula gitu bang-->
+      <div class="box_besar" class="grid" style="grid-template-columns: 1fr; grid-template-rows: 100px; gap: 15px;">
+        <!--Bagian Gula Pasir-->
+        <div class="box">
+          <img src="pasir.jpg" alt="Gambar Gula Pasir">
+          <div class="produk">
+              <h3>Gula Pasir</h3>
+              <p> <b>Kelebihan </b>: Memberikan struktur yang kokoh pada kue dan sangat baik untuk proses kriming dengan mentega agar kue mengembang.</p>
+              <p><b>Harga</b>: Rp17.000 - Rp22.000 per kg</p>
+              <a href="#" class="tombol-beli">BELI</a>
+          </div>
+        </div>
+
+        <!--Bagian Gula Kastor (Caster Sugar)-->
+        <div class="box">
+          <img src="kastor.jpg" alt="Gambar Gula Kastor">
+          <div class="produk">
+              <h3>Gula Kastor (Caster Sugar)</h3>
+              <p> <b>Kelebihan </b>: Butirannya sangat halus sehingga larut lebih cepat. Menghasilkan kue dengan tekstur yang sangat lembut dan ringan, ideal untuk meringue dan chiffon cake.</p>
+              <p><b>Harga</b>: Rp25.000 - Rp45.000 per kg</p>
+              <a href="#" class="tombol-beli">BELI</a>
+          </div>
+        </div>
+
+        <!--Bagian Brown Sugar-->
+        <div class="box">
+          <img src="ka" alt="Gambar Brown Sugar">
+          <div class="produk">
+              <h3>Brown Sugar</h3>
+              <p> <b>Kelebihan </b>: Memberikan kelembapan ekstra, menghasilkan tekstur kue yang chewy (kenyal), serta menambah aroma dan rasa karamel yang khas.</p>
+              <p><b>Harga</b>:Rp20.000 - Rp35.000 per 500 gram</p>
+              <a href="#" class="tombol-beli">BELI</a>
+          </div>
+        </div>
+      </div>
+
+      <!--Jenis barang topping-->
+      <div class="jenis">
+        <h2>TOPPING</h2>
+      </div>
+    <!--Box yang ngecover semua topping gitu bang-->
+      <div class="box_besar" class="grid" style="grid-template-columns: 1fr; grid-template-rows: 100px; gap: 15px;">
+        <!--Bagian coklat Chocochips-->
+        <div class="box">
+          <img src="chip.webp" alt="Gambar Coklat Chocochips">
+          <div class="produk">
+              <h3>coklat Chocochips</h3>
+              <p> <b>Kelebihan </b>: praktis tidak perlu dipotong. Bentuknya tetap utuh saat dipanggang memberikan tekstur pada cookies atau bolu.</p>
+              <p><b>Harga</b>: Rp 25.000 - Rp 45.000 per kemasan (250 gram).</p>
+              <a href="#" class="tombol-beli">BELI</a>
+          </div>
+        </div>
+
+        <!--Bagian Cream Cheese-->
+        <div class="box">
+          <img src="cream.jpg" alt="Gambar Cream Cheese">
+          <div class="produk">
+              <h3>Cream Cheese</h3>
+              <p> <b>Kelebihan </b>: buat cheesecake. Memberikan tekstur yang sangat lembut, padat, dan creamy dengan rasa sedikit asam yang khas</p>
+              <p><b>Harga</b>: Rp 45.000 - Rp 65.000 per kemasan (250 gram).</p>
+              <a href="#" class="tombol-beli">BELI</a>
+          </div>
+        </div>
+
+        <!--Bagian Mentega Putih (Shortening)-->
+        <div class="box">
+          <img src="putih.webp" alt="Gambar Mentega Putih">
+          <div class="produk">
+              <h3>Mentega Putih (Shortening)</h3>
+              <p> <b>Kelebihan </b>: buat buttercream yang kokoh, tidak mudah meleleh di suhu panas, dan berwarna putih cerah. cocok dipadukan dengan berbagai perisa.</p>
+              <p><b>Harga</b>:Rp20.000 - Rp35.000 per 500 gram</p>
+              <a href="#" class="tombol-beli">BELI</a>
+          </div>
+        </div>
+      </div>
+
+    <div class="jenis">
+    <h2>IKLAN</h2>
+    </div>
+      <div class="box_besar">
+        <!--Bagian coklat Chocochips-->
+        <div class="iklan">
+          <div class="produk" >
+              <h3>TOKO BAHAN KUE CICI MEY</h3>
+              <p> <b>KELEBIHAN </b>: TERJAMIN KUALITAS BAHAN KUENYA, MURAH HARGANYA, DIJAMIN KUE ANDA ENAK PADAHAL BELUM DIBUAT, DAN YANG PASTI AMAN</p>
+              <p><b>KEKURANGAN</b>: GAK ADA KEKURANGANNYA, AYUK TUNGGU APALAGI MARI BELI BAHAN KUE HANYA DI TOKO CICI MEY</p>
+              <a href="#" class="tombol-beli">BELI</a>
+          </div>
+        </div>
+      </div>
+
+    <!--Tampilan tambahan khusus admin table 1-->
+    <div class="jenis">
+    <h2>Data Transaksi</h2>
+    </div>
+      <div class="box_besar">
+        <!--Bagian DATA TRANSAKSI-->
+        <div class="iklan">
+          <div class="produk" >
+              <h3>Berikut adalah data transaksi dan data stok barang</h3>
+              <p> <b>Barang Terjual per bulan</b>= 100 per produk, dengan total produk terjual 1200 produk</p>
+              <p> <b>Total Pemasukan per bulan </b>= Total Pemasukan Rata-Rata = Rp100,000.000</p>
+              <p> <b>Profit Bersih per bulan</b> </b>= Total Profit yang Didapatkan Perusahaan Rp70.000.000</p>
+              <p> <b>Stock Barang Tersisa </b>= Stock Habis, Tolong Hubungi Distributor dan Restock</p>
+              <a href="#" class="tombol-beli">Konfirmasi</a>
+          </div>
+        </div>
+      </div>
+    
+    <!--Tampilan tambahan khusus admin table 2-->
+    <div class="jenis">
+    <h2>EDIT WEBSITE PENGGUNA</h2>
+    </div>
+      <div class="box_besar">
+        <!--Bagian FITUR EDIT WEBSITE-->
+        <div class="iklan">
+          <div class="produk" >
+              <h3>PERHATIAN MENGGUNAKAN FITUR INI AKAN MENGUBAH TAMPILAN DAN DATA WEBSITE SHOP PENGGUNA.
+                <br>TOLONG BERHATI-HATI DALAM MENGGUNAKAN FITUR INI<br>
+              </h3>
+              <p><b>Penyimpanan</b> Total = 100PB Digunakan 79PB Tersisa 21 PB</p>
+              <p><b>DATA USER </b> Total akun USER 335.000.000 PENGGUNA</p>
+              <P><b>PERHATIAN BACKUP SEBELUM MELAKUKAN PERUBAHAN</b>Silahkan Ubah dan Edit Website Toko Bahan Kue Cici Mey dengan Meneka Tombol Di Bawah</P>
+              <a href="#" class="tombol-beli">EDIT</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</body>
+</html>
